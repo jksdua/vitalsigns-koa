@@ -1,0 +1,33 @@
+{
+  "name": "vitalsigns-koa",
+  "version": "1.0.0",
+  "description": "Koa middleware for vitalsigns",
+  "main": "index.js",
+  "dependencies": {
+    "vitalsigns": "^0.4.3"
+  },
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "koa-framework": "^4.1.2",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1",
+    "vitalsigns": "^0.4.3"
+  },
+  "scripts": {
+    "test": "mocha --bail --reporter spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jksdua/vitalsigns-koa.git"
+  },
+  "keywords": [
+    "vitalsigns",
+    "koa"
+  ],
+  "author": "Jaap Karan Singh <jksdua@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jksdua/vitalsigns-koa/issues"
+  },
+  "homepage": "https://github.com/jksdua/vitalsigns-koa#readme"
+}
