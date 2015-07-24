@@ -4,6 +4,7 @@
   "description": "Koa middleware for vitalsigns",
   "main": "index.js",
   "dependencies": {
+    "json-mask": "^0.3.4",
     "vitalsigns": "^0.4.3"
   },
   "devDependencies": {
